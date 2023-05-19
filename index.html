@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Project Informatika</title>
+    <link rel="icon" type="image/x-icon0" href="assets/python.ico">
+    <title>KarirIT</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
@@ -12,20 +13,26 @@
     <header>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid ">
-              <a class="navbar-brand logo fs-4 text-light" href="#"><img src="assets/python.png" style="width: 30px; padding-right: 5px;">KarirIT</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand logo fs-4 text-light fw-semibold " href="#"><img src="assets/python.png" style="width: 30px; padding-right: 5px;">KarirIT</a>
+              <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item p-3 fs-4 ">
-                    <a class="nav-link text-light"href="#">Home</a>
+                    <a class="nav-link text-light" href="#karir">Karir</a>
                   </li>
                   <li class="nav-item p-3 fs-4">
-                    <a class="nav-link text-light" href="#">Features</a>
+                    <a class="nav-link text-light" href="#skill">Skill</a>
                   </li>
                   <li class="nav-item p-3 fs-4">
-                    <a class="nav-link text-light" href="#">Pricing</a>
+                    <a class="nav-link text-light" href="#blogs">Blogs</a>
+                  </li>
+                  <li class="nav-item p-3 fs-4">
+                    <a class="nav-link text-light" href="#video">Video</a>
+                  </li>
+                  <li class="nav-item p-3 fs-4">
+                    <a class="nav-link text-light" href="#course">Course</a>
                   </li>
                 </ul>
               </div>
@@ -41,7 +48,7 @@
     </div>
     
     <!-- ROLE BASED ROADMAPS -->
-    <h1 class="text-light title">Pemetaan Karir IT</h1>
+    <h1 class="text-light title fs-5" id="karir">Pemetaan Karir IT</h1>
     <div class="role">
       <div class="menu">
           <li><a href="#">Frontend</a></li>
@@ -54,39 +61,104 @@
     </div>
     
     <!-- SKILL BASED ROADMAPS -->
-    <h1 class="text-light title">Pemetaan Karir IT</h1>
+    <h1 class="text-light title fs-5" id="skill">Pemetaan Keahlian</h1>
     <div class="role">
       <div class="menu">
-          <li><a href="#">Frontend</a></li>
-          <li><a href="#">Backend</a></li>
-          <li><a href="#">Cyber Security</a></li>
-          <li><a href="#">Fullstack</a></li>
-          <li><a href="#">Flutter</a></li>
-          <li><a href="#">Software Architect</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">ReactJS</a></li>
+          <li><a href="#">Python</a></li>
+          <li><a href="#">Java</a></li>
+          <li><a href="#">Docker</a></li>
+          <li><a href="#">MongoDB</a></li>
       </div>
     </div>
   </div>
-    
+
+  <!-- SVG WAVES -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  
     <!-- GUIDES -->
-    <div class="content-info">
+    <div class="content-info" id="blogs">
       <div class="blog">
-        <h1 class="text-light title-info">Blogs</h1>
-      <ul class="menu-blog">
-      <li><a href="#">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a></li>
-      <li><a href="#">Belajar Logika Pemrograman<span class="badge bg-secondary m-2">Recomended</span></a></li>
-      <li><a href="#">Belajar Logika Pemrograman<span class="badge bg-secondary m-2">Recomended</span></a></li>
-      <li><a href="#">Belajar Logika Pemrograman<span class="badge bg-secondary m-2">Recomended</span></a></li>
-      <li><a href="#">Belajar Logika Pemrograman<span class="badge bg-secondary m-2">Recomended</span></a></li>
-      <li><a href="#">Belajar Logika Pemrograman<span class="badge bg-secondary m-2">Recomended</span></a></li>
-      <li><a href="#">Belajar Logika Pemrograman<span class="badge bg-secondary m-2">Recomended</span></a></li>
-    </ul>
-    </div>
+        <h1 class="text-black">Blogs</h1>
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <div class="menu-blog">
+          <a href="#" class="blog-btn">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+        </div>
+        <a href="#" class="more-btn p-2 fw-medium text-light">Lihat semua Video -></a>
+      </div>
     
     <!-- VIDEOS -->
+      <div class="blog">
+        <h1 class="text-black" id="video">Video</h1>
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <div class="menu-blog">
+          <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+          <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+        </div>
+        <a href="#" class="more-btn p-2 fw-medium text-light">Lihat semua Video -></a>
+      </div>
 
+    <!-- COURSE -->
+    <div class="blog" id="course">
+      <h1 class="text-black">Course</h1>
+      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      <div class="menu-blog">
+        <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+        <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+        <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+        <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+        <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+        <a href="#" class="blog-btn" target="_blank">Belajar Logika Pemrograman<span class="badge bg-primary m-2">Recomended</span></a>
+      </div>
+      <a href="#" class="more-btn p-2 fw-medium text-light">Lihat semua Course -></a>
     </div>
-    <!-- FOOTER -->
+    </div>
     
+    <!-- FOOTER -->
+    <div class="footer-container">
+      <nav class="nav-2">
+        <a href="#" class="fw-medium">Jalur</a>
+        <a href="#" class="fw-medium">Blogs</a>
+        <a href="#" class="fw-medium">Video</a>
+      </nav>
+
+      <div class="footer-content">
+        <div class="main-footer-content">
+          <div class="footer-main-1">
+            <p class="navbar-brand1 logo fs-4" href="#">
+              <img
+                src="assets/python.png"
+                style="width: 30px; padding-right: 5px"
+              /><span class="fw-semibold text-light">KarirIT</span><span style="font-size: 20px;" class="text-secondary px-2">by</span> <span class="badge bg-primary m-1 fs-6 fw-medium text-light">Kelompok 1</span>
+            </p>
+            <a
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae, sequi tempore modi eius animi quasi. Neque nam, alias
+              dignissimos officia fuga, ducimus perferendis natus modi, eaque ex
+              ratione velit vero!</a
+            >
+          </div>
+          <div class="footer-main-2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum soluta
+            molestiae illum ipsum, voluptate corrupti praesentium ullam rem?
+            Laboriosam qui nulla reprehenderit et quisquam consequuntur soluta
+            ipsa reiciendis assumenda exercitationem.
+          </div>
+        </div>
+        <div class="copyright">Copyright © 2023 Kelompok 1</div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
   </html>
