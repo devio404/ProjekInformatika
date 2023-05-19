@@ -1,0 +1,85 @@
+
+
+
+html body {
+    background-color: #0e1527;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    /* background-color: blue; */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* DESCRIPTION CONTENT */
+.desc-content {
+    text-align: center;
+    margin: 1rem;
+    color: rgba(255, 255, 255, 0.452);
+}
+
+/* ROLE BASED ROADMAP */
+.role {
+    max-width: 900px;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.role h1 {
+    margin: 1.5rem;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu .role-btn {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.role-btn li {
+    border: 2px solid #ffffff90;
+    margin: 0.5rem;
+    width: 200px;
+    height: 50px;
+    background-color: #1b2846;
+}
+
+.role-btn li:hover {
+    border: 2px solid #ffffff;
+    transition: 0.3s;
+}
+
+.role-btn li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1000px) {
+    header {
+        display: block;
+    }
+}
