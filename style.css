@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Ubuntu&display=swap');
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Be Vietnam Pro', sans-serif; */
+  cursor: url(./assets/cursor.png), auto;
+}
+
 html body, .content {
-    background-color: #0e1527;
+    background:linear-gradient(90deg, #000428, #1b294b);
+    /* background-color: #091540; */
+    /* background-color: #0e1527; */
 }
 .content-info{
     background-color: #fff;
@@ -16,15 +26,15 @@ html body, .content {
 /* SCROLL BAR */
 ::-webkit-scrollbar-track{
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
+	background-color: #Fff;
 }
 ::-webkit-scrollbar{
 	width: 7px;
-	background-color: #F5F5F5;
+	background-color: #Fff;
 }
 ::-webkit-scrollbar-thumb{
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #0e1527;
+	background-color: #f71735;
 }
 
 /* NAVBAR */
@@ -41,6 +51,12 @@ header {
     margin: 3rem 0 3rem 0;
     color: rgba(255, 255, 255, 0.452);
     max-width: 90%;
+}
+.desc-content .title-desc{
+  background-image: linear-gradient(90deg, #f71735, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
 }
 
 /* ROLE & SKILL BASED ROADMAP */
@@ -60,7 +76,7 @@ header {
    flex-wrap: wrap;
    justify-content: center;
 }
-.menu li {
+.menu a {
     border: 2px solid #ffffff7a;
     padding: 10px;
     border-radius: 7px;
@@ -68,16 +84,14 @@ header {
     list-style: none;
     text-decoration: none;
     width: 200px;
-}
-.menu li:hover{
-    border: 2px solid #fff;
-    transition: 0.3s;
-}
-.menu li a {
     list-style: none;
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+}
+.menu a:hover{
+    border: 2px solid #fff;
+    transition: 0.3s;
 }
 
 /* GUIDES & VIDEOS */
@@ -114,7 +128,7 @@ header {
 
 /* FOOTER */
 .footer-container {
-    background-color: #0e1527;
+    background:linear-gradient(90deg, #000428, #1b294b);
     min-height: 50vh;
   }
   .nav-2 {
@@ -142,6 +156,7 @@ header {
   .footer-main-1 {
     width: 20rem;
     color: #fff;
+    max-width: 300px;
   }
   .navbar-brand1 {
     color: #f9f8f8;
@@ -156,6 +171,7 @@ header {
   .footer-main-2 {
     width: 20rem;
     color: #fff;
+    max-width: 300px;
   }
   .copyright {
     position: fixed;
