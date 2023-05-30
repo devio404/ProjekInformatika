@@ -119,6 +119,7 @@ header {
     justify-content: space-between;
     border-bottom: 1px solid #cfcfcf;
     margin-bottom: 1rem;
+    font-size: 18px;
 }
 .menu-blog .blog-btn:hover{
     color: dodgerblue;
@@ -193,6 +194,9 @@ header {
     .footer-main-2 {
       padding-top: 16px;
       padding-bottom: 30px;
+    }
+    .nav-2 a{
+      margin: 0.7rem;
     }
   }
 
