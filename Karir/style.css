@@ -93,6 +93,7 @@ header {
   margin: 1rem;
   text-align: center; 
   height: 230px;
+  width: 260px;
 }
 .tab .child-tab{
   margin: 0.3rem;
@@ -199,6 +200,10 @@ header {
   }
   .nav-2 > a {
     padding-right: 0.7rem;
+  }
+  .body-step .tab{
+    margin: 0rem;
+    margin-bottom: 1rem;
   }
 }
 
