@@ -93,7 +93,7 @@ header {
   margin: 1rem;
   text-align: center; 
   height: 230px;
-  width: 260px;
+  width: auto;
 }
 .expand-tab{
   padding: 10px;
@@ -125,6 +125,31 @@ header {
 }
 .link-offc{
   text-decoration: none;
+}
+
+/* QUOTES */
+.quote-box {
+  display: inline-block;
+  max-width: 800px;
+  max-height: 400px;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  /* box-shadow: 0 0 20px 1px rgb(0, 137, 249); */
+}
+.quote-box h2 {
+  font-size: 25px;
+  color: rgb(33, 39, 45);
+}
+blockquote{
+  display: inline-block;
+  height: 80px;
+  font-size: 24px;
+}
+.quote-btn{
+  background-color: transparent;
+  border-radius: 7px;
+  border: 2px solid #000428;
 }
 
 /* ACCORDIONS */
@@ -203,9 +228,13 @@ header {
   .main-footer-content {
     display: block;
   }
+  .footer-main-1{
+    max-width: 75%;
+  }
   .footer-main-2 {
     padding-top: 16px;
     padding-bottom: 30px;
+    max-width: 75%;
   }
   .nav-2 > a {
     padding-right: 0.7rem;
@@ -213,6 +242,9 @@ header {
   .body-step .tab, .expand-tab{
     margin: 0rem;
     margin-bottom: 1rem;
+  }
+  blockquote{
+    font-size: 17px;
   }
 }
 
