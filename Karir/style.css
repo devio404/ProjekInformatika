@@ -167,7 +167,7 @@ blockquote{
 /* FOOTER */
 .footer-container {
   background:linear-gradient(90deg, #000428, #1b294b);
-  min-height: 50vh;
+  height: 100%;
 }
 .nav-2 {
   display: flex;
@@ -187,6 +187,7 @@ blockquote{
   display: flex;
   justify-content: center;
   padding-top: 45px;
+  padding-bottom: 3rem;
 }
 .main-footer-content > div {
   margin: 0 50px;
@@ -210,6 +211,10 @@ blockquote{
     width: 20rem;
     color: #fff;
     max-width: 300px;
+    text-align: right;
+  }
+  .link {
+    text-decoration: none;
   }
   .copyright {
     position: fixed;
