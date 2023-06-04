@@ -1,10 +1,14 @@
 const katakata = [
-    "kamu takut? aku berani.kamu berani? aku takut. -Aldi Taher",
-    "Memulai sesuatu tidak harus menunggu sempurna, tapi jika ingin sempurna maka harus memulai. -Nokia",
-    "Gak perlu ayang sing penting due allah sing maha penyayang. -Supra",
-    "Jangan terlalu cepat menilai suatu hal. Ketika kau berada di samping cahaya, kau tidak akan melihat bayangan. Ingat, kau bukanlah entitas yang maha tahu.",
-    "Segala hal yang telah terjadi di semesta adalah mutlak tak bisa diubah. Apa ? kau bilang itu mungkin? Haha, sebaiknya hal itu jangan sampai terjadi.",
-    "Terlalu baik adalah hal yang buruk. Bagaimana mungkin sesuatu yang teramat positif itu menjadi negatif? Huft, sesuatu yang berlebihan memang mengerikan.",
+    "Bukan jadi yang terbaik, tapi jadilah yang lebih baik dari sebelumnya",
+    "Jika hari ini tidak lebih baik dari kemarin, kamu termasuk orang yang merugi.",
+    "Cukup satu kerentanan yang dibutuhkan penyerang.",
+    "Jika perusahaan Anda menghabiskan lebih banyak uang untuk isi perut daripada keamanan IT, perusahaan Anda akan diretas. Lebih dari itu, perusahaan Anda pantas untuk diretas.",
+    "Jiwa pemenang sibuk mencari jalan, jiwa pecundang sibuk mencari alasan.",
+    "Yakinlah, ada sesuatu yang menantimu setelah sekian banyak kesabaran (yang kau jalani), yang akan membuatmu terpana hingga akan lupa betapa pedihnya rasa sakit. - Ali bin Abi Thalib",
+    "Setiap orang punya jatah gagalnya masing-masing, habiskanlah jatah gagalmu sewaktu masih muda. - Dahlan Iskan",
+    "Hanya tidak mudah, bukan tidak mungkin",
+    "Mungkin bukan sekarang, tapi di masa yang akan datang kamu akan menikmati doa yang selama ini kamu ulang-ulang. - Al Habib Umar bin Hafidz",
+    "Satu-satunya cara untuk melakukan pekerjaan luar biasa adalah dengan mencintai apa yang Anda lakukan. Jika Anda belum menemukannya, teruslah mencari. Jangan puas ! - Bill Gates"
   ];
   let usedSentences = [];
   let randomSentence = "";
