@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Public+Sans&display=swap');
 
 *{
-  font-family: 'Inter', sans-serif;;
+  font-family: 'Public Sans', sans-serif;
   /* font-family: 'Be Vietnam Pro', sans-serif; */
   cursor: url(./assets/cursor.png), auto;
 }
