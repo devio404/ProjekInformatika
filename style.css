@@ -4,12 +4,16 @@
   font-family: 'Ubuntu', sans-serif;
   /* font-family: 'Be Vietnam Pro', sans-serif; */
   cursor: url(./assets/cursor.png), auto;
+  scroll-behavior: smooth;
 }
 
-html body, .content {
+html body{
     background:linear-gradient(90deg, #000428, #1b294b);
     /* background-color: #091540; */
     /* background-color: #0e1527; */
+}
+.content-card{
+  background-color: #fff;
 }
 .content-info{
     background-color: #fff;
@@ -41,7 +45,6 @@ html body, .content {
 header {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 2rem;
     /* background-color: blue; */
 }
 
@@ -56,7 +59,7 @@ header {
   background-image: linear-gradient(90deg, #f71735, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 48px;
+  font-size: 54px;
 }
 
 /* ROLE & SKILL BASED ROADMAP */
@@ -168,6 +171,110 @@ label textarea{
   margin: 1rem;
 }
 
+/* CARD PROFILE TEAM PAGE */
+/* CARD */
+.title-card {
+  display: flex;
+  justify-content: center;
+}
+.title-card::after {
+  content: "";
+  display: block;
+  margin-bottom: 2px;
+  width: 20%;
+  position: absolute;
+}
+.title-card h1{
+  border-bottom: 2px solid #1b294b;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3 , auto);
+  justify-content: center;
+}
+.card-container .main-card {
+  min-width: 60px;
+  min-height: 100px;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.5px solid #1b294b;
+  border-radius: 13px;
+  position: relative;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0px 0px 10px grey;
+}
+.main-card:hover{
+  transform: scale(1.05);
+}
+
+/* UBAH FOTO */
+.card-container .main-card:nth-child(1) {
+  background-image: url(assets/profile/adi.webp);
+}
+.card-container .main-card:nth-child(2) {
+  background-image: url(assets/profile/divo.webp);
+  background-position: -350px center;
+}
+.card-container .main-card:nth-child(3) {
+  background-image: url(assets/profile/diandra.webp);
+}
+.card-container .main-card:nth-child(4) {
+  background-image: url(assets/profile/gustav.webp);
+  background-position: -70px center;
+}
+.card-container .main-card:nth-child(5) {
+  background-image: url(assets/profile/dio.webp);
+}
+.card-container .main-card:nth-child(6) {
+  background-image: url(assets/profile/syauqi.webp);
+}
+
+/* END FOTO */
+.card-container .main-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(19, 19, 43, 1) 3%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  z-index: 1;
+  border-radius: 13px;
+}
+.card-container .main-card .my-info {
+  bottom: 0;
+  position: absolute;
+}
+.card-container .main-card .my-info {
+  color: #fff;
+  z-index: 2;
+}
+.card-container .main-card .my-info > h4 {
+  text-align: left;
+}
+.my-info p{
+  text-align: left;
+}
+.card-container .main-card .social {
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  transition: 0.2s ease-in-out;
+}
+.social a:hover{
+  transform: scale(1.2);
+}
+
 /* FOOTER */
 .footer-container {
     background:linear-gradient(90deg, #000428, #1b294b);
@@ -204,6 +311,20 @@ label textarea{
   .navbar-brand1 {
     color: #f9f8f8;
     margin-bottom: 0;
+    
+  }
+  .btn-profile{
+    border: 1.5px solid #cccbcb;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 10ms ease-in-out;
+  }
+  .btn-profile:hover{
+    background-color: #96969671;
   }
   .navbar-brand1 > span {
     color: gray;
@@ -215,7 +336,6 @@ label textarea{
     width: 20rem;
     color: #fff;
     max-width: 300px;
-    text-align: right;
   }
   .link{
     text-decoration: none;
@@ -231,7 +351,6 @@ label textarea{
     font-size: 10px;
     color: azure;
   }
-  
 
 @media (max-width: 500px) {
     .main-footer-content {
@@ -250,6 +369,11 @@ label textarea{
     }
     form{
       max-width: 300px;
+    }
+  }
+  @media (max-width: 768px) {
+    .card-container{
+      grid-template-columns: repeat(1 , auto);
     }
   }
 

@@ -108,6 +108,19 @@ article p{
     color: #f9f8f8;
     margin-bottom: 0;
   }
+  .btn-profile{
+    border: 1.5px solid #cccbcb;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 10ms ease-in-out;
+  }
+  .btn-profile:hover{
+    background-color: #96969671;
+  }
   .navbar-brand1 > span {
     color: gray;
   }
@@ -118,7 +131,6 @@ article p{
     width: 20rem;
     color: #fff;
     max-width: 300px;
-    text-align: right;
   }
   .link{
     text-decoration: none;
